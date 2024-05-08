@@ -14,6 +14,24 @@ const ProductDetail = ({ data, close }) => {
             className="production__exit__icon"
           />
         </button>
+
+        <div className="production__content">
+          <p className="production__info">
+            <span>Name:</span> {data.fname}
+          </p>
+          <p className="production__info">
+            <span>Surname:</span> {data.lname}
+          </p>
+          <p className="production__info">
+            <span>Age:</span> {data.age}
+          </p>
+          <p className="production__info">
+            <span>Tel:</span> {data.tel}
+          </p>
+          <p className="production__info">
+            <span>Address:</span> {data.address}
+          </p>
+        </div>
       </div>
     </div>
   );
