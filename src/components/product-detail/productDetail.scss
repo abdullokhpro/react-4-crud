@@ -1,0 +1,34 @@
+.production__detail {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 50%;
+  margin: 0 auto;
+  background-color: #161b22;
+  z-index: 999;
+  border-radius: 10px;
+  border: 1px solid #282e33;
+}
+
+.production__detail__exit {
+  margin-top: 30px;
+  margin-left: 90%;
+  background-color: transparent;
+}
+
+.production__exit__icon {
+  color: red;
+  font-size: 25px;
+}
+.production__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.133);
+}
